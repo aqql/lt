@@ -1,12 +1,12 @@
 name: UnicomTask
 
 on:
-  push:
-    branches: main
-  gollum:
+#  push:
+#    branches: main
+#  gollum:
   workflow_dispatch:
-  schedule:
-    - cron: '00 01 * * *'
+#  schedule:
+#    - cron: '00 01 * * *'
 
 jobs:
   deploy:
